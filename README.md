@@ -1,5 +1,6 @@
 ## Instruction
-The project provides a mapping and navigation package for Unitree quadruped robots in Gazebo(Ubantu18.04)
+The project provides a mapping and navigation package for Unitree quadruped robots in Gazebo(Ubantu18.04).
+
 The content is divided into three parts: 
 
     (1) Basic motion control of quadruped robot(C++)
@@ -20,6 +21,7 @@ Give it a star if it helps you, thank you ~
 ## Code example
 1. Motion control
     Switch the robot state according to the keyboard keys, read the reference Unitree document for details.
+   
     FreeStand state:W-A-S-D-I-J-K-L,Trotting state:W-A-S-D-J-L
    
     The project in Baidu web disk provides a detailed code annotation.
@@ -63,6 +65,7 @@ Terminal_2:
     roslaunch unitree_move_base slam_gmapping.launch
 ```
     In terminal_4, You can write code to control the robot's walk to complete the mapping, just send data to the cmd_vel topic. 
+    
     Or refer to key control:
 ```
     rosrun teleop_twist_keyboard teleop_twist_keyboard.py
