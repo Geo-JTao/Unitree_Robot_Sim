@@ -54,7 +54,9 @@ Terminal_2:
 
 3. SLAM mapping
 
-    Note: Check the contents of the robot_description parameter in the src\unitree_guide\unitree_move_base\launch\move_base.launch file to ensure that the robot model loaded with radar is used.
+    Note: Check the contents of the robot_description parameter in the src\unitree_guide\unitree_move_base\launch\move_base.launch file
+
+   to ensure that the robot model loaded with radar is used.
 ```
     roslaunch unitree_move_base gazebo_move_base.launch
 ```
@@ -64,9 +66,7 @@ Terminal_2:
 ```
     roslaunch unitree_move_base slam_gmapping.launch
 ```
-    In terminal_4, You can write code to control the robot's walk to complete the mapping, just send data to the cmd_vel topic. 
-    
-    Or refer to key control:
+    In terminal_4, You can write code to control the robot's walk to complete the mapping, just send data to the cmd_vel topic.Or refer to key control:
 ```
     rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```
