@@ -21,6 +21,7 @@ Give it a star if it helps you, thank you ~
 1. Motion control
     Switch the robot state according to the keyboard keys, read the reference Unitree document for details.
     FreeStand state:W-A-S-D-I-J-K-L,Trotting state:W-A-S-D-J-L
+   
     The project in Baidu web disk provides a detailed code annotation.
    
 Terminal_1:
@@ -37,6 +38,7 @@ Terminal_2:
 ```
 
 2. Navigation
+
     Note: you need to set(MOVE_BASE ON) in the unitree_guide/CMakeLists.txt file.
 ```
     roslaunch unitree_move_base gazebo_move_base.launch
@@ -48,7 +50,8 @@ Terminal_2:
     roslaunch unitree_move_base rvizMoveBase.launch
 ```
 
-3. SLAM mapping 
+3. SLAM mapping
+
     Note: Check the contents of the robot_description parameter in the src\unitree_guide\unitree_move_base\launch\move_base.launch file to ensure that the robot model loaded with radar is used.
 ```
     roslaunch unitree_move_base gazebo_move_base.launch
