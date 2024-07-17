@@ -2,13 +2,10 @@
 The project provides a mapping and navigation package for Unitree quadruped robots in Gazebo(Ubantu18.04)
 The content is divided into three parts: 
 
-
     (1) Basic motion control of quadruped robot(C++)
 
-    
     (2) Dynamic obstacle avoidance navigation(ROS)
 
-    
     (3) SLAM mapping based on LiDAR(ROS)
 
     
