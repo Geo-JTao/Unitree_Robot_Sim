@@ -22,6 +22,7 @@ Give it a star if it helps you, thank you ~
     Switch the robot state according to the keyboard keys, read the reference Unitree document for details.
     FreeStand state:W-A-S-D-I-J-K-L,Trotting state:W-A-S-D-J-L
     The project in Baidu web disk provides a detailed code annotation.
+   
 Terminal_1:
 ```
     cd ~/unitree_ws
