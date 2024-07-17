@@ -55,8 +55,7 @@ Terminal_2:
 3. SLAM mapping
 
     Note: Check the contents of the robot_description parameter in the src\unitree_guide\unitree_move_base\launch\move_base.launch file
-
-   to ensure that the robot model loaded with radar is used.
+          to ensure that the robot model loaded with radar is used.
 ```
     roslaunch unitree_move_base gazebo_move_base.launch
 ```
